@@ -1,0 +1,6 @@
+Pink: #DD0568
+Purple: #73187F
+Geel: #FFC122
+Oranje: #F93B21
+Blauw: #483AD0
+Turqoise: #3ADBBC
