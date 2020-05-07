@@ -1,0 +1,241 @@
+body {
+        font-family: 'Sniglet';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: local('Sniglet Regular'), local('Sniglet-Regular'), url(https://fonts.gstatic.com/s/sniglet/v11/cIf9MaFLtkE3UjaJ9CChYVkH.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    
+}
+
+/*NAVBAR*/
+.header {
+    background-image: url("C:\Users\giann\OneDrive\Bureaublad\PvB\ontwerp\header.png");
+    height: 100px;
+    width: 100vw;
+}
+
+.logo {
+    margin-top: 13px;
+    margin-left: 80px;
+}
+
+.profiel-icon {
+    margin-bottom: 4px;
+    margin-left: 1600px;
+}
+
+.menu-icon {
+    margin-left: 20px;
+    margin-bottom: 6px;
+}
+
+/*Avatar vakje*/
+.vakje5 {
+    width: 115px;
+    height: 240px;
+    margin-top: -240px;
+    margin-left: -603px;
+    border-radius: 14px;
+    border: 1px solid lightgrey;
+}
+
+.vakje5 p {
+    font-weight: bold;
+    margin-top: 80px;
+    margin-left: 33px;
+}
+
+/*Welkom met tekst*/
+.welkom {
+    margin-bottom: 255px;
+    margin-left: -1090px;
+}
+
+h3 {
+    color: #73187F;
+    font-size: 18px;
+    margin-left: -470px;
+    margin-top: -240px;
+}
+
+/*VAKJES MET BUTTONS*/
+
+/*Langvakje met button*/
+.vakje1 {
+    width: 1091px;
+    height: 430px;
+    margin-top: 40px;
+    margin-left: 684px;
+    background-color: lightgray;
+}
+
+.button1 {
+    width: 175px;
+    height: 35px;
+    margin-top: 370px;
+    margin-left: 485px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(to right,  #73187F, #DD0568);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+/*Showpagina*/
+.vakje2 {
+    width: 520px;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 684px;
+    background-color: lightgray;
+}
+
+.button2 {
+    width: 175px;
+    height: 35px;
+    margin-top: 240px;
+    margin-left: 175px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(to right,  #483AD0, #3ADBBC);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+/*Inlog/registreer vakje met buttons*/
+.vakje3 {
+    width: 520px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 1253px;
+    border-radius: 14px;
+    border: 1px solid lightgrey;
+}
+
+.button3 {
+    width: 175px;
+    height: 35px;
+    margin-top: 90px;
+    margin-left: 180px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(to right, #73187F, #DD0568);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+p {
+    margin-left: 126px;
+}
+
+.button4 {
+    width: 175px;
+    height: 35px;
+    margin-left: 180px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(to right, #73187F, #DD0568);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+/*Meteen starten*/
+.vakje4 {
+    width: 520px;
+    height: 300px;
+    margin-top: -302px;
+    margin-left: 115px;
+    background-color: lightgray;
+}
+
+.button5 {
+    width: 175px;
+    height: 35px;
+    margin-top: 240px;
+    margin-left: 175px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(to right, #F93B21, #FFC122);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+/*Leer meer over programmeren*/
+.leren p{
+    color: #73187F;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 113px;
+    margin-top: 27px;
+}
+
+/*Vakje 6 met foto*/
+.vakje6 {
+    width: 830px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 115px;
+    background-color: lightgray;
+}
+
+/*Dresscode*/
+.vakje7 {
+    width: 830px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 945px;
+    border: 1px solid lightgray;
+}
+
+.vakje7 h1 {
+    color: #73187F;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.vakje7 p {
+    margin-left: 26px;
+}
+
+/*Footer*/
+.footer {
+    height: 80px;
+    width: 1920px;
+    margin-top: 40px;
+    margin-left: -8px;
+    background-image: linear-gradient(to right, #73187F, #DD0568);
+}
+
+.footer-tekst {
+    color: white;
+    font-size: 14px;
+    padding-top: 20px;
+    margin-left: 80px;
+}
+
+.twitter {
+    color: white;
+    margin-left: 1707px;
+    margin-top: -61px;
+    width: 36px;
+    height: 36px;
+}
+
+.facebook {
+    margin-top: -45px;
+    margin-left: 1750px;
+}
+
+.instagram {
+    margin-top: -61px;
+    margin-left: 1770px;
+    width: 34px;
+    height: 34px;
+    color: black;
+}
