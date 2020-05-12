@@ -1,0 +1,341 @@
+body {
+
+
+    font-size: 16px;
+
+    margin: 0;
+
+    font-family: 'Sniglet', cursive;
+}
+
+*{
+
+    box-sizing: border-box;
+
+}
+
+/*NAVBAR*/
+
+.navbar {
+
+    height: 80px;
+
+    width: 100vw;
+
+    background-image: linear-gradient(to right, #73187F, #DD0568);
+
+    display: block;
+
+    text-align: left;
+
+}
+
+
+
+.navbar_menu-icons{
+
+    float: right;
+
+    margin: 20px;
+
+}
+
+.logo {
+
+    margin-top: 13px;
+
+    width: 55px;
+
+    margin-left: 80px;
+
+}
+
+
+
+.profiel-icon {
+
+    margin-right: 40px;
+
+    width: 40px;
+
+
+
+}
+
+
+
+.menu-icon {
+
+    width: 40px;
+
+}
+
+
+
+
+
+/*Inlog vakje*/
+
+.vakje1 {
+
+    width: 30%;
+
+    max-width: 500px;
+
+    height: 510px;
+
+    margin: 90px auto 0;
+
+    border-radius: 14px;
+
+    border: 1px solid lightgrey;
+
+    text-align: center;
+
+}
+
+
+
+.profiel {
+
+    width: 40px;
+
+    margin: 21px auto 0;
+
+}
+
+
+
+h1 {
+
+    font-size: 20px;
+
+    margin: 9px auto 0;
+    
+
+}
+
+
+
+p {
+
+    margin: 30px auto;
+    font-family: 'open sans';
+
+}
+
+
+
+h2 {
+
+    font-size: 21px;
+
+    text-align: left;
+
+    margin-left: 15%;
+
+    font-family: 'open sans';
+
+}
+
+
+
+.email {
+
+    width: 70%;
+
+    height: 30px;
+
+    margin-top: -17px;
+
+    border-radius: 5px;
+
+    border: 1px solid grey;
+
+}
+
+
+
+h3 {
+
+    font-size: 21px;
+
+    margin-top: 15px;
+
+    text-align: left;
+
+    margin-left: 15%;
+
+    font-family: 'open sans';
+
+}
+
+
+
+.wachtwoord {
+
+    width: 70%;
+
+    height: 30px;
+
+    margin-top: -17px;
+
+    border-radius: 5px;
+
+    border: 1px solid grey;
+
+}
+
+
+
+a {
+
+    font-size: 12px;
+
+    color: black;
+
+    font-weight: bold;
+
+}
+
+
+
+/*Vakje onder*/
+
+.vakje2 {
+
+    width: 30%;
+
+    max-width: 500px;
+
+    height: 130px;
+
+    margin: -20px auto 0;
+
+    border-radius: 14px;
+
+    border: 1px solid lightgrey;
+
+    background-image: linear-gradient(to right, #73187F, #DD0568);
+
+    text-align: center;
+
+}
+
+
+
+.vakje2 p {
+
+    color: white;
+
+    font-size: 12px;
+
+    margin-top: 25px;
+
+}
+
+
+
+.button3 {
+
+    width: 90%;
+
+    height: 30px;
+
+    margin-top: 15px;
+
+    border-radius: 8px;
+
+    border: none;
+
+    color: black;
+
+    background-color: white;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+}
+
+
+
+/*Footer*/
+
+.footer {
+
+    width: 100vw;
+
+    background-image: linear-gradient(to right, #73187F, #DD0568);
+
+    display: block;
+
+    position: relative;
+
+    text-align: left;
+
+}
+
+
+
+.footer-tekst {
+
+    color: white;
+
+    font-size: 14px;
+
+    font-family: sans-serif;
+
+    padding: 20px;
+
+    margin: 0 0 0 80px;
+
+}
+
+
+
+.footer_icons{
+
+    right: 10px;
+
+    top: 10px;
+
+    position: absolute;
+
+    width: auto;
+
+}
+
+
+
+.twitter {
+
+    color: white;
+
+    width: 36px;
+
+    height: 36px;
+
+}
+
+
+
+.facebook {
+
+
+
+}
+
+
+
+.instagram {
+
+    width: 34px;
+
+    height: 34px;
+
+    color: black;
+
+}
