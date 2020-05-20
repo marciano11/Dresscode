@@ -1,0 +1,447 @@
+body {
+    background-color: lightpink;
+}
+
+/*Tekst*/
+p {
+    font-family: 'open Sans', sans-serif;
+    font-size: 30px;
+    margin-left: 643px;
+    margin-top: -39px;
+}
+
+/*Logo*/
+.logo {
+    width: 45px;
+    height: 45px;
+    margin-left: 580px;
+    margin-top: 20px;
+}
+
+/*Hoofd Avatar met achtergrond*/
+.blond {
+    width: 153px;
+    margin-top: -7px;
+    margin-left: 47px;
+}
+
+.avatar {
+    width: 250px;
+    height: 350px;
+    margin-left: 640px;
+    margin-top: 180px;
+    border-radius: 42px;
+    background-image: linear-gradient(to bottom, #483AD0, #3ADBBC);
+}
+
+/*Button Avatar kiezen*/
+#k1 {
+    font-family: 'Sniglet';
+    font-size: 20px;
+    color: white;
+    margin-left: 672px;
+    margin-top: 15px;
+    border-radius: 24.5px;
+    border: none;
+    width: 190px;
+    height: 35px;
+    background-image: linear-gradient(to right, #483AD0, #3ADBBC);
+}
+
+/*Modaal venster*/
+  #inhoud1 {
+    display: flex;
+  }
+  #inhoud1>div {
+    flex: 0 1 auto;
+  }
+
+  #inhoud1>section {
+    flex: 1 1 70%;
+    padding: 1em;
+  }
+  
+  .modaal-venster {
+    display: block;
+    width: 80% ;
+    background-color: lightpink;
+    padding: 1em;
+    margin-top: 80px;
+    height: 550px;
+    box-sizing: border-box;
+    position: absolute;
+  }
+
+.sluitknop {
+    font-size: 2.5em;
+    position: absolute;
+    top: .5em;
+    right: .5em;
+    cursor: pointer;
+  }
+
+/*Modaal venster avatar kiezen*/
+
+/*links*/
+h5 {
+    font-family: 'Sniglet';
+    font-size: 40px;
+    color: white;
+    margin-left: 123px;
+    margin-top: 40px;
+}
+
+.julia {
+    width: 105px;
+    margin-top: -63px;
+    margin-left: 131px;
+}
+
+.avatar1 {
+    width: 350px;
+    height: 519px;
+    margin-left: 30px;
+    border-radius: 42px;
+    background-image: linear-gradient(to right, #f93b21, #ffc122);
+}
+
+h2 {
+    color: white;
+    font-family: 'Open sans', sans-serif;
+    font-size: 18px;
+    margin-left: 43px;
+    margin-top: 20px;
+}
+
+.button1 {
+    font-family: 'Sniglet';
+    font-size: 20px;
+    color: white;
+    margin-left: 82px;
+    margin-top: 2px;
+    border-radius: 24.5px;
+    border: none;
+    width: 190px;
+    height: 40px;
+    background-image: linear-gradient(to right, #483AD0, #3ADBBC);
+}
+
+/*Midden*/
+h6 {
+    font-family: 'Sniglet';
+    font-size: 40px;
+    color: white;
+    margin-left: 112px;
+    margin-top: 40px;
+}
+
+.glorie {
+    width: 118px;
+    margin-top: -86px;
+    margin-left: 119px;
+}
+
+.avatar2 {
+    width: 350px;
+    height: 519px;
+    margin-left: 30px;
+    border-radius: 42px;
+    background-image: linear-gradient(to right, #483AD0, #3ADBBC);
+}
+
+h3 {
+    color: white;
+    font-family: 'Open sans', sans-serif;
+    font-size: 18px;
+    margin-left: 43px;
+}
+
+.button2 {
+    font-family: 'Sniglet';
+    font-size: 20px;
+    color: white;
+    margin-left: 82px;
+    border-radius: 24.5px;
+    border: none;
+    width: 190px;
+    height: 40px;
+    background-image: linear-gradient(to right, #dd0568, #73187f);
+}
+
+/*Rechts*/
+h1 {
+    font-family: 'Sniglet';
+    font-size: 40px;
+    color: white;
+    margin-left: 115px;
+    margin-top: 40px;
+}
+
+.merel {
+    width: 118px;
+    margin-top: -21px;
+    margin-left: 115px;
+}
+
+.avatar3 {
+    width: 350px;
+    height: 519px;
+    margin-left: 30px;
+    border-radius: 42px;
+    background-image: linear-gradient(to right, #dd0568, #73187f);
+}
+
+h4 {
+    color: white;
+    font-family: 'Open sans', sans-serif;
+    font-size: 18px;
+    margin-left: 43px;
+}
+
+.button3 {
+    font-family: 'Sniglet';
+    font-size: 20px;
+    color: white;
+    margin-left: 82px;
+    margin-top: -5px;
+    border-radius: 24.5px;
+    border: none;
+    width: 190px;
+    height: 40px;
+    background-image: linear-gradient(to right,  #f93b21, #ffc122);
+}
+
+/*Footer*/
+#footer_img {
+    width: 98.4vw;
+    height: 200px;
+    margin-top: -655px;
+}
+
+#footer_img img {
+    width: 99.9vw;
+    height: 755px;
+    margin-left: -7.2px;
+    position: absolute;
+    z-index: -1;
+}
+
+/*Media query ipad*/
+@media only screen and (orientation: landscape) and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+/*Tekst*/
+p {
+    font-family: 'open Sans', sans-serif;
+    font-size: 20px;
+    margin-left: 340px;
+    margin-top: -25px;
+}
+
+/*Logo*/
+.logo {
+    width: 30px;
+    height: 30px;
+    margin-left: 295px;
+    margin-top: 12px;
+}
+
+/*Hoofd Avatar met achtergrond*/
+.blond {
+    width: 120px;
+    margin-top: -7px;
+    margin-left: 21px;
+}
+
+.avatar {
+    width: 160px;
+    height: 272px;
+    margin-left: 321px;
+    margin-top: 110px;
+    border-radius: 42px;
+    background-image: linear-gradient(to bottom, #483AD0, #3ADBBC);
+}
+
+/*Button Avatar kiezen*/
+#k1 {
+    font-family: 'Sniglet';
+    font-size: 14px;
+    color: white;
+    margin-left: 331px;
+    margin-top: 15px;
+    border-radius: 24.5px;
+    border: none;
+    width: 140px;
+    height: 30px;
+    background-image: linear-gradient(to right, #483AD0, #3ADBBC);
+}
+
+/*Modaal venster*/
+  .modaal-venster {
+    display: block;
+    width: 72% ;
+    background-color: lightpink;
+    padding: 1em;
+    margin-top: 115px;
+    margin-left: -78px;
+    height: 395px;
+    box-sizing: border-box;
+    position: absolute;
+  }
+
+.sluitknop {
+    font-size: 2.5em;
+    position: absolute;
+    top: -0.3em;
+    right: 0em;
+    cursor: pointer;
+  }
+
+/*Modaal venster avatar kiezen*/
+
+/*links*/
+h5 {
+    font-family: 'Sniglet';
+    font-size: 33px;
+    color: white;
+    margin-left: 54px;
+    margin-top: 20px;
+}
+
+.julia {
+    width: 74px;
+    margin-top: -55px;
+    margin-left: 65px;
+}
+
+.avatar1 {
+    width: 195px;
+    height: 364px;
+    margin-left: 24px;
+    border-radius: 42px;
+    background-image: linear-gradient(to right, #f93b21, #ffc122);
+}
+
+h2 {
+    color: white;
+    font-family: 'Open sans', sans-serif;
+    font-size: 12px;
+    margin-left: 9px;
+    margin-top: 8px;
+}
+
+.button1 {
+    font-family: 'Sniglet';
+    font-size: 17px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 2px;
+    border-radius: 24.5px;
+    border: none;
+    width: 156px;
+    height: 36px;
+    background-image: linear-gradient(to right, #483AD0, #3ADBBC);
+}
+
+/*Midden*/
+h6 {
+    font-family: 'Sniglet';
+    font-size: 33px;
+    color: white;
+    margin-left: 43px;
+    margin-top: 20px;
+}
+
+.glorie {
+    width: 85px;
+    margin-top: -77px;
+    margin-left: 56px;
+}
+
+.avatar2 {
+    width: 195px;
+    height: 364px;
+    margin-left: 35px;
+    border-radius: 42px;
+    background-image: linear-gradient(to right, #483AD0, #3ADBBC);
+}
+
+h3 {
+    color: white;
+    font-family: 'Open sans', sans-serif;
+    font-size: 12px;
+    margin-left: 9px;
+    margin-top: 6px;
+}
+
+.button2 {
+    font-family: 'Sniglet';
+    font-size: 17px;
+    color: white;
+    margin-left: 20px;
+    border-radius: 24.5px;
+    border: none;
+    width: 156px;
+    height: 36px;
+    background-image: linear-gradient(to right, #dd0568, #73187f);
+}
+
+/*Rechts*/
+h1 {
+    font-family: 'Sniglet';
+    font-size: 33px;
+    color: white;
+    margin-left: 37px;
+    margin-top: 20px;
+}
+
+.merel {
+    width: 83px;
+    margin-top: -22px;
+    margin-left: 57px;
+}
+
+.avatar3 {
+    width: 195px;
+    height: 364px;
+    margin-left: 35px;
+    border-radius: 42px;
+    background-image: linear-gradient(to right, #dd0568, #73187f);
+}
+
+h4 {
+    color: white;
+    font-family: 'Open sans', sans-serif;
+    font-size: 12px;
+    margin-left: 9px;
+    margin-top: 15px;
+}
+
+.button3 {
+    font-family: 'Sniglet';
+    font-size: 17px;
+    color: white;
+    margin-left: 20px;
+    margin-top: -4px;
+    border-radius: 24.5px;
+    border: none;
+    width: 156px;
+    height: 36px;
+    background-image: linear-gradient(to right,  #f93b21, #ffc122);
+}
+
+/*Footer*/
+#footer_img {
+    width: 82.7vw;
+    height: 467px;
+    margin-top: -479px;
+}
+
+#footer_img img {
+    width: 83.5vw;
+    height: 642px;
+    margin-left: -7.2px;
+    position: absolute;
+    z-index: -1;
+}
+
+}

@@ -1,0 +1,24 @@
+licht roze: #881181
+Pink: #DD0568
+Purple: #73187F
+Geel: #FFC122
+Oranje: #F93B21
+Blauw: #483AD0
+Turqoise: #3ADBBC
+
+
+buttons:
+
+Border-radius: 24.5px
+vakjes border-radius: 42px
+
+Lettertype:
+
+sniglet
+
+lettergrote:
+
+
+buttons: 20px 
+titel (en namen)font-size: h1
+normale tekst: 25px

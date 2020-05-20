@@ -1,0 +1,564 @@
+body {
+    font-family: 'Sniglet';
+    margin: 0;
+}
+
+/*NAVBAR*/
+.navbar {
+    height: 80px;
+    width: 100vw;
+    background-image: transparant;
+    display: block;
+    text-align: left;
+    position: absolute;
+    top: 0;
+}
+.navbar_menu-icons{
+    float: right;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.logo {
+    margin-top: 13px;
+    width: 55px;
+    margin-left: 80px;
+}
+.profiel-icon {
+    width: 40px;
+    margin-left: 50px;
+}
+.menu-icon {
+    width: 40px;
+    cursor: pointer;
+}
+
+/*HEADER*/
+#header_img {
+    width: 98.9vw;
+}
+
+#header_img img{
+    width: 98.9vw;
+    margin-top: -85px;
+}
+
+.button6 {
+    width: 11.5vw;
+    height: 5%;
+    margin-top: -14%;
+    margin-left: 17vw;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(to right, #F93B21, #FFC122);
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+/*VAKJES MET BUTTONS*/
+
+/*Showpagina*/
+.vakje2 {
+    width: 26vw;
+    height: 40.5%;
+    margin-top: 40px;
+    margin-left: 567px;
+    background-color: lightgray;
+    box-shadow: 4px 4px black;
+    border-radius: 14px;
+}
+
+.button2 {
+    width: 12vw;
+    height: 12%;
+    margin-top: 59%;
+    margin-left: 7.5vw;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(to right,  #483AD0, #3ADBBC);
+    font-family: 'Sniglet';
+    font-size: 16px;
+}
+
+/*Inlog/registreer vakje met buttons*/
+.vakje3 {
+    width: 26vw;
+    height: 40.5%;
+    margin-top: -300px;
+    margin-left: 1055px;
+    border-radius: 14px;
+    border: 1px solid lightgrey;
+    box-shadow: 4px 4px black;
+    border-radius: 14px;
+}
+
+.button3 {
+    width: 12vw;
+    height: 12%;
+    margin-top: 90px;
+    margin-left: 7.5vw;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(to right, #73187F, #DD0568);
+    font-family: 'Sniglet';
+    font-size: 16px;
+}
+
+p {
+    font-family: sans-serif;
+    margin-left: 66px;
+}
+
+.button4 {
+    width: 12vw;
+    height: 12%;
+    margin-left: 7.5vw;
+    border-radius: 8px;
+    border: none;
+    color: black;
+    background: none;
+    font-family: 'Sniglet';
+    font-size: 16px;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+}
+
+.button-gradient {
+   border-image-source: linear-gradient(to right, #73187F, #DD0568);
+
+}
+
+/*Meteen starten*/
+.vakje4 {
+    width: 26vw;
+    height: 40.5%;
+    margin-top: -302px;
+    margin-left: 70px;
+    background-color: lightgray;
+    box-shadow: 4px 4px black;
+    border-radius: 14px;
+}
+
+.button5 {
+    width: 12vw;
+    height: 12%;
+    margin-top: 59%;
+    margin-left: 7vw;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(to right, #F93B21, #FFC122);
+    font-family: 'Sniglet';
+    font-size: 16px;
+}
+/*box*/
+.box {
+    background: gray;
+    width: 98.9vw;
+    height: 50%;
+}
+
+/*Leer meer over programmeren*/
+.leren h3{
+    color: #73187F;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 5vw;
+    margin-top: 4%;
+}
+
+/*Vakje 6 met foto*/
+.vakje6 {
+    width: 40vw;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 5vw;
+    background-color: lightgray;
+}
+
+/*Dresscode*/
+.vakje7 {
+    width: 40vw;
+    height: 300px;
+    margin-top: -20.5%;
+    margin-left: 45vw;
+}
+
+.vakje7 h1 {
+    color: #73187F;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.vakje7 p {
+    margin-left: 26px;
+}
+
+/*onderkant*/
+h1 {
+    color: #73187F;
+    font-family: 'Sniglet';
+    margin-left: 77px;
+    margin-top: 30px;
+}
+
+/*links boven en onder*/
+.vakje8 {
+    width: 50vw;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 5vw;
+    background-color: lightgray;
+}
+
+.vakje9 {
+    width: 50vw;
+    height: 450px;
+    margin-top: 30px;
+    margin-left: 5vw;
+    background-color: lightgray;
+}
+
+/*rechterkant (links -> rechts)*/
+.vakje10 {
+    width: 17vw;
+    height: 330px;
+    margin-top: -980px;
+    margin-left: 57vw;
+    background-color: lightgray;
+}
+
+.vakje11 {
+    width: 17vw;
+    height: 400px;
+    margin-top: -330px;
+    margin-left: 76vw;
+    background-color: lightgray;
+}
+
+.vakje12 {
+    width: 17vw;
+    height: 350px;
+    margin-top: -40px;
+    margin-left: 57vw;
+    background-color: lightgray;
+}
+
+.vakje13 {
+    width: 17vw;
+    height: 280px;
+    margin-top: -280px;
+    margin-left: 76vw;
+    background-color: lightgray;
+}
+
+.vakje14 {
+    width: 36vw;
+    height: 240px;
+    margin-top: 30px;
+    margin-left: 57vw;
+    background-color: lightgray;
+}
+
+/*Footer*/
+#footer_img {
+    width: 98.9vw;
+    margin-top: 100px;
+}
+
+#footer_img img {
+    width: 98.9vw;
+    height: 210px;
+}
+
+/*footer tekst*/
+.tekst {
+    margin-top: -120px;
+}
+.footer-tekst {
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-top: 20px;
+    margin-left: 80px;
+}
+
+/*footer icons*/
+.icons {
+    margin-top: -30px;
+}
+
+.icons .ticons {
+    margin-top: -13px;
+}
+
+.twitter {
+    color: white;
+    margin-left: -115px;
+    margin-top: -90px;
+    width: 36px;
+    height: 36px;
+}
+
+.facebook {
+    margin-top: -15px;
+    margin-left: 1330px;
+}
+
+.instagram {
+    margin-top: -80px;
+    margin-left: 1365px;
+    width: 34px;
+    height: 34px;
+    color: black;
+}
+
+/*Media query ipad*/
+@media only screen and (orientation: landscape) and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+/*HEADER*/
+#header_img img{
+    width: 55.2vw;
+    margin-top: 0px;
+    position: relative;
+}
+
+.logo {
+    margin-top: 10px;
+    width: 30px;
+    margin-left: 10px;
+}
+.profiel-icon {
+    width: 26px;
+    margin-left: -500px;
+    margin-top: -10px;
+}
+.menu-icon {
+    width: 27px;
+    margin-left: -480px;
+    margin-top: -9px;
+}
+
+.button6 {
+    width: 11vw;
+    height: 25px;
+    margin-top: 198px;
+    margin-left: -46vw;
+    font-size: 10px; 
+    position: absolute;
+}
+
+/*Meteen starten*/
+.vakje4 {
+    width: 16vw;
+    height: 30.5%;
+    margin-top: -238px;
+    margin-left: 15px;
+}
+
+.button5 {
+    font-size: 10px; 
+    width: 11vw;
+    height: 25px;
+    margin-top: 114%;
+    margin-left: 2.5vw;
+}
+
+/*Showpagina*/
+.vakje2 {
+    width: 16vw;
+    height: 30.5%;
+    margin-top: 38px;
+    margin-left: 200px; 
+}
+
+.button2 {
+    margin-top: 114%;
+    margin-left: 2.5vw;
+    font-size: 10px;
+    width: 11vw;
+    height: 25px;
+}
+
+/*Inlog/registreer vakje met buttons*/
+.vakje3 {
+    width: 16vw;
+    height: 30.5%;
+    margin-top: -234px;
+    margin-left: 384px; 
+}
+
+.button3 {
+    font-size: 10px;
+    width: 11vw;
+    height: 25px;
+    margin-left: 2.5vw;
+    margin-top: 50%;
+}
+
+p {
+    font-size: 8px;
+    margin-left: 18px;
+}
+
+.button4 {
+    font-size: 10px;
+    width: 11vw;
+    margin-left: 2.5vw;
+    height: 25px;
+}
+
+/*box*/
+.box {
+    margin-top: 120px;
+    width: 55.2vw;
+    height: 345px;
+}
+
+/*Leer meer over programmeren*/
+.leren h3{
+    font-size: 18px;
+    margin-left: 1.5vw;
+}
+
+/*Vakje 6 met foto*/
+.vakje6 {
+    width: 25vw;
+    height: 251px;
+    margin-left: 1.5vw;
+    margin-top: 30px;
+}
+
+/*Dresscode*/
+.vakje7 {
+    width: 40.2vw;
+    margin-left: 15vw;
+}
+
+.vakje7 h1 {
+    margin-top: -245px;
+    margin-left: 135px;
+}
+
+.vakje7 p {
+    font-size: 8px;
+    margin-left: 135px;
+    margin-top: -10px;
+}
+
+/*onderkant*/
+h1 {
+    font-size: 23px;
+    margin-left: 20px;
+    margin-top: 83px;
+}
+
+/*links boven en onder*/
+.vakje8 {
+    width: 26.2vw;
+    height: 260px;
+    margin-left: 0.7vw;
+}
+.vakje9 {
+    width: 26.2vw;
+    height: 215px;
+    margin-top: 8px;
+    margin-left: 0.7vw;
+}
+
+/*rechterkant (links -> rechts)*/
+.vakje10 {
+    width: 13vw;
+    height: 157px;
+    margin-top: -483px;
+    margin-left: 27.7vw;
+}
+
+.vakje11 {
+    width: 13vw;
+    height: 157px;
+    margin-top: 8px;
+    margin-left: 27.7vw;
+}
+
+.vakje12 {
+    width: 13vw;
+    height: 170px;
+    margin-top: -322px;
+    margin-left: 41.5vw;
+}
+
+.vakje13 {
+    width: 13vw;
+    height: 144px;
+    margin-top: 8px;
+    margin-left: 41.5vw;
+}
+
+.vakje14 {
+    width: 26.8vw;
+    height: 153px;
+    margin-top: 8px;
+    margin-left: 27.7vw;
+}
+
+/*Footer*/
+#footer_img {
+    width: 55.2vw;
+    margin-top: 100px;
+}
+
+#footer_img img {
+    width: 55.2vw;
+    height: 100px;
+}
+
+/*footer tekst*/
+.tekst {
+    margin-top: -95px;
+}
+.footer-tekst {
+    font-size: 9px;
+    padding-top: 47px;
+    margin-left: 15px;
+}
+
+/*footer icons*/
+.icons {
+    margin-left: -145px;
+    margin-top: -15px;
+}
+
+.icons .ticons {
+    margin-top: -13px;
+}
+
+.twitter {
+    color: white;
+    margin-left: -66px;
+    margin-top: -90px;
+    width: 23px;
+    height: 23px;
+}
+
+.facebook {
+    margin-top: -15px;
+    margin-left: 639px;
+    width: 18px;
+    height: 18px;
+}
+
+.instagram {
+    margin-top: -80px;
+    margin-left: 656px;
+    width: 21px;
+    height: 21px;
+    color: black;
+}
+
+}
